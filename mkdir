@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Traffic Management Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Smart Traffic Control Dashboard</h1>
+<div id="summary"></div>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Location</th>
+<th>Vehicle Count</th>
+<th>Waiting Time</th>
+<th>Signal Status</th>
+<th>Congestion</th>
+</tr>
+</thead>
+<tbody id="trafficTable"></tbody>
+<table/>
+<h2>Road & Emergency Alerts</h2>
+<div id="alerts"></div>
+<script src="script.js"></script>
+</body>
+</html>
